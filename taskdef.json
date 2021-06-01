@@ -3,7 +3,7 @@
     "containerDefinitions": [
         {
             "image": "834860586869.dkr.ecr.us-east-1.amazonaws.com/jenkins-ecs-conteiner:latest",
-            "name": "JenkinsECS-Container",
+            "name": "JenkinsECS",
             "cpu": 10,
             "memory": 256,
             "essential": true,
