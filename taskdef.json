@@ -1,15 +1,15 @@
 {
-    "family": "hello-world",
+    "family": "flask-signup",
     "containerDefinitions": [
         {
-            "image": "%REPOSITORY_URI%:v_%BUILD_NUMBER%",
-            "name": "hello-world",
+            "image": "834860586869.dkr.ecr.us-east-1.amazonaws.com/jenkins-ecs-conteiner:latest",
+            "name": "flask-signup",
             "cpu": 10,
             "memory": 256,
             "essential": true,
             "portMappings": [
                 {
-                    "containerPort": 80,
+                    "containerPort": 5000,
                     "hostPort": 80
                 }
             ]
